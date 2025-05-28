@@ -6,7 +6,6 @@ def extension__tts_generation_webui():
     return {
         "package_name": "extension_ap_bwe",
         "name": "AP-BWE Bandwidth Extension",
-        "version": "0.1.0",
         "requirements": "git+https://github.com/rsxdalv/extension_ap_bwe@main",
         "description": "AP-BWE: An audio bandwidth extension solution using Amplitude-Phase Bandwidth Extension models.",
         "extension_type": "interface",
