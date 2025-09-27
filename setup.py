@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name="tts_webui_extension.ap_bwe",
     packages=setuptools.find_namespace_packages(),
-    version="0.1.0",
+    version="0.1.1",
     author="rsxdalv",
     description="AP-BWE: An audio bandwidth extension solution using Amplitude-Phase Bandwidth Extension models.",
     url="https://github.com/rsxdalv/tts_webui_extension.ap_bwe",

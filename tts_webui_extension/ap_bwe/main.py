@@ -20,7 +20,7 @@ def extension__tts_generation_webui():
 
 
 def ap_bwe_ui():
-    from extension_ap_bwe.gradio_app import create_interface
+    from .gradio_app import create_interface
 
     create_interface()
 
