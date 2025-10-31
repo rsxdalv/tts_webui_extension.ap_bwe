@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tts_webui_extension.ap_bwe"
+version = "0.1.1"
+description = "AP-BWE: An audio bandwidth extension solution using Amplitude-Phase Bandwidth Extension models."
+authors = [
+    {name = "rsxdalv"}
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "gradio",
+    "huggingface_hub",
+    "safetensors",
+    "ap_bwe @ https://github.com/rsxdalv/AP-BWE/releases/download/v0.1.0/ap_bwe-0.1.0-py3-none-any.whl",
+]
+
+[project.urls]
+Homepage = "https://github.com/rsxdalv/tts_webui_extension.ap_bwe"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+# This will find all namespace packages automatically
+namespaces = true
