@@ -1,1 +1,1 @@
-## TTS WebUI / Harmonica extension for AP BWE
+## TTS WebUI extension for AP BWE
